@@ -20,19 +20,19 @@ export class Semaforo extends React.Component {
 				<div id="trafficTop"></div>
 				<div id="container">
 					<div
-						className={"red light" + redExtraClass}
+						className={"red light " + redExtraClass}
 						onClick={() =>
-							this.setState({ clickedLight: "red" + "" })
+							this.setState({ clickedLight: "red" })
 						}></div>
 					<div
-						className={"yellow light" + yellowExtraClass}
+						className={"yellow light " + yellowExtraClass}
 						onClick={() =>
-							this.setState({ clickedLight: "yellow" + "" })
+							this.setState({ clickedLight: "yellow" })
 						}></div>
 					<div
-						className={"green light" + greenExtraClass}
+						className={"green light " + greenExtraClass}
 						onClick={() =>
-							this.setState({ clickedLight: "green" + "" })
+							this.setState({ clickedLight: "green" })
 						}></div>
 					{/* <div
                         className={"yellow light" + yellowExtraClass}
